@@ -35,6 +35,7 @@ export default {
 </script>
 
 <style>
+body {background-color:black;overflow:hidden;}
 .loadingloaded{user-select:none;-webkit-user-select:none;display: flex;flex-direction: column;text-align: center;align-items: center;justify-content: center;min-height: 100vh;position: relative;}
-.loadingloaded h1 {position: absolute;top: 50%;transform: translateY(-50%);font-family: Arial, Helvetica, sans-serif;}
+.loadingloaded h1 {color:white;position: absolute;top: 50%;transform: translateY(-50%);font-family: Arial, Helvetica, sans-serif;}
 </style>
